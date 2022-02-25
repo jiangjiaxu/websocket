@@ -31,7 +31,7 @@ public class Word2PdfUtil {
      * @param wordPath
      *            需要被转换的word全路径带文件名
      * @param pdfPath
-     *            转换之后pdf的全路径带文件名
+     *            转换之后pdf的全路径带文件名 
      */
     public static void doc2pdf(String wordPath, String pdfPath) {
         if (!getLicense()) { // 验证License 若不验证则转化出的pdf文档会有水印产生
