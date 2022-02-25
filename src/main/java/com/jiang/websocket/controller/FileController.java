@@ -46,9 +46,9 @@ public class FileController {
 		return "转换成功";
 	}
 
-	public static void main(String[] args) {
-		int a=1>2?3:4;
-		System.out.println(a);
-		System.out.println(1>2?3:4);
-	}
+//	public static void main(String[] args) {
+//		int a=1>2?3:4;
+//		System.out.println(a);
+//		System.out.println(1>2?3:4);
+//	}
 }

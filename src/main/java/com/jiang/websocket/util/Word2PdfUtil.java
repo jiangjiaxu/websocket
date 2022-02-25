@@ -52,6 +52,9 @@ public class Word2PdfUtil {
         }
     }
 
+    public static void main(String[] args) {
+        doc2pdf("D:\\账号密码.txt","D:\\账号密码.pdf");
+    }
     /**
      * @param is
      *            需要被转换的wordd的InputStream
