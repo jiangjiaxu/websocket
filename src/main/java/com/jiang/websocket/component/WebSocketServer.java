@@ -62,7 +62,7 @@ public class WebSocketServer {
 	public void onClose(Session session, @PathParam("username") String username){
 		SESSION_MAP.remove(username);
 		log.info("有一连接关闭，移除username={}，当前在线人数：{}",username,SESSION_MAP.size());
-	}
+	} 
 
 	/**
 	 * 收到客户端消息调用的方法
