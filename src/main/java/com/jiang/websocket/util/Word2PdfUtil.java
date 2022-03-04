@@ -53,7 +53,7 @@ public class Word2PdfUtil {
     }
 
     public static void main(String[] args) {
-        doc2pdf("D:\\账号密码.txt","D:\\账号密码.pdf");
+        doc2pdf("D:\\AAAAWork\\ninghang\\文档手册\\部署文档\\宁杭软件部署文档.docx","D:\\AAAAWork\\ninghang\\文档手册\\部署文档\\宁杭软件部署文档.pdf");
     }
     /**
      * @param is
